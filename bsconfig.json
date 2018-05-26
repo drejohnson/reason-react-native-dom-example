@@ -1,0 +1,26 @@
+{
+  "name": "example-app",
+  "reason": {
+    "react-jsx": 2
+  },
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "bs-dependencies": [
+    "bs-react-native",
+    "reason-react",
+    "reroute-native"
+  ],
+  "sources": [
+    {
+      "dir": "re",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "namespace": true,
+  "refmt": 3
+}
